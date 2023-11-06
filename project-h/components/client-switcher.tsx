@@ -4,7 +4,6 @@ import { useParams, useRouter } from "next/navigation";
 import { useState } from "react";
 import { Check, ChevronsUpDown, PlusCircle, UserCircle2 } from "lucide-react";
 
-import { Client } from "@prisma/client";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { useClientModal } from "@/hooks/use-client-modal";
 import { Button } from "@/components/ui/button";
@@ -14,7 +13,10 @@ import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, Command
 type PopoverTriggerProps = React.ComponentPropsWithoutRef<typeof PopoverTrigger>
 
 interface ClientSwitcherProps extends PopoverTriggerProps{
-    items: Client[];
+    items: {
+        name: string,
+        id: string,
+    }[];
 }
 
 export default function ClientSwitcher({
