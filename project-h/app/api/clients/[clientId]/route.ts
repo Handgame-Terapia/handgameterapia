@@ -36,7 +36,7 @@ export async function PATCH(
 
         return NextResponse.json(client)
     } catch(error){
-        console.log('[CLIENT_PATCH]', error)
+        console.error('[CLIENT_PATCH]', error)
         return new NextResponse("Internal Error" , {status: 500})
     }
 };
@@ -65,7 +65,7 @@ export async function DELETE(
 
         return NextResponse.json(client)
     } catch(error){
-        console.log('[CLIENT_DELETE]', error)
+        console.error('[CLIENT_DELETE]', error)
         return new NextResponse("Internal Error" , {status: 500})
     }
 };
