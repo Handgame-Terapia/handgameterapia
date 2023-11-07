@@ -10,7 +10,9 @@ interface CardProps{
     description: string
     tia: string
     insta: string
+    insta_nick: string
     twitter: string
+    twitter_nick: string
 };
 
 const Card: React.FC<CardProps> = ({
@@ -19,50 +21,47 @@ const Card: React.FC<CardProps> = ({
     description,
     tia,
     insta,
-    twitter
+    insta_nick,
+    twitter,
+    twitter_nick
 }) => {
     return (
-        <div className="flex border-2 border-white rounded-md">
-            <div className="w-full">
-                <div className="border-b-2 w-full">
-                    <div className='w-full h-60 flex items-center justify-center'>
-                        <Image
-                            className="rounded-2xl"
-                            src={url}
-                            height={200}
-                            width={200}
-                            alt='profile_pic'
-                        />
-                    </div>
+        <div className="bg-bgc-card rounded-lg grid grid-rows-3 p-4 gap-4">
+            <div className="flex justify-center">
+                <Image
+                    className="rounded-lg bg-cover w-60 h-60"
+                    src={url}
+                    height={200}
+                    width={200}
+                    alt="profile_pic"
+                />
+            </div>
+            <div className="flex justify-start flex-col gap-4">
+                <div className="text-center">
+                    <h1 className="text-2xl">{nome}</h1>
+                    <p className="text-md text-neutral-500">{tia}</p>
                 </div>
-                <div className="flex flex-col items-start my-4">
-                    <div className="flex gap-3 w-full font-bold">                    
-                        <p className="text-xl ml-4">{nome}</p>
-                        |
-                        <p className="text-xl">{tia}</p>
-                    </div>
-                    <p className="text-lg font-bold ml-4">Descrição:</p>
-                    <p className="text-md ml-4">{description}</p>
-                    <div className="flex flex-col gap-2">
-                        <p className="text-lg mt-2 font-bold ml-4">Contatos:</p>
-                        <div className="flex items-center ml-4 gap-3">
-                            <AtSign/>
-                            <p>Email: 32033273@mackenzista.com.br</p>
-                        </div>
-                        <Link className="flex items-center ml-4 gap-3"
-                            href={insta}
-                        >
-                            <Instagram/>
-                            <p>Instagram</p>
-                        </Link>
-                        <Link className="flex items-center ml-4 gap-3"
-                            href={twitter}
-                        >
-                            <Twitter/>
-                            <p>Twitter</p>
-                        </Link>
-                    </div>
+                <div className="text-center">
+                    <p>{description}</p>
                 </div>
+            </div>
+            <div className="flex flex-col justify-center gap-4 pt-4">
+                <div className="flex items-center ml-4 gap-3">
+                    <AtSign/>
+                    <p>{tia}@mackenzista.com.br</p>
+                </div>
+                <Link className="flex items-center ml-4 gap-3"
+                    href={insta}
+                >
+                    <Instagram/>
+                    <p>{insta_nick}</p>
+                </Link>
+                <Link className="flex items-center ml-4 gap-3"
+                        href={twitter}
+                >
+                    <Twitter/>
+                    <p>{twitter_nick}</p>
+                </Link>
             </div>
         </div>
     );

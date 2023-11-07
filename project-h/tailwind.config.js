@@ -21,6 +21,11 @@ module.exports = {
     },
     extend: {
       colors: {
+        bgc:{
+          nav: '#121212',
+          card: '#010911',
+          hcard: '#020c17',
+        },
         tremor: {
           brand: {
             faint: "#eff6ff", // blue-50
@@ -63,7 +68,7 @@ module.exports = {
           background: {
             muted: "#131A2B", // custom
             subtle: "#1f2937", // gray-800
-            DEFAULT: "#111827", // gray-900
+            DEFAULT: "#050505", // gray-900
             emphasis: "#d1d5db", // gray-300
           },
           border: {
