@@ -46,7 +46,7 @@ const Footer = () => {
                             </Link>
                         </div>
                     ) : (
-                        <div className="flex flex-col items-center justify-center gap-4 w-40">
+                        <div className="flex flex-col md:items-start justify-center gap-4 md:w-1/3 w-full items-center">
                             <p className="font-bold text-2xl">Navegação</p>
                             <Link href="../documents" className="w-full">
                                 <Button
