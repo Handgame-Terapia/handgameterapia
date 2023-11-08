@@ -1,13 +1,11 @@
-import { MailQuestion } from "lucide-react";
+import Image from "next/image";
 
 import Light from "@/public/light.svg"
 import Conversation from "@/public/conversation.svg"
 import thinkining from "@/public/question.svg"
 import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import Image from "next/image";
 
 const faqPage = () => {
     return (

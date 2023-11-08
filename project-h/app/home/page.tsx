@@ -35,7 +35,7 @@ const homePage = () => {
                             </HoverCardTrigger>
                             <HoverCardContent>
                                 <h2 className="border-b">Mobilidade</h2>
-                                <p>
+                                <p className="text-sm">
                                     Por seus componentes serem leves e com uma malha flexível 
                                     a movimentação é garantida, e o cliente não sentirá a sensação 
                                     de estar preso na luva.
@@ -48,7 +48,7 @@ const homePage = () => {
                             </HoverCardTrigger>
                             <HoverCardContent>
                                 <h2 className="border-b">Arejada</h2>
-                                <p>
+                                <p className="text-sm">
                                     Nossas preocupações no desing do tecido foi que ela seja
                                     uma malha respirável e flexível, assim, tornando a experiência
                                     do cliente mais agradável.
@@ -61,7 +61,7 @@ const homePage = () => {
                             </HoverCardTrigger>
                             <HoverCardContent>
                                 <h2 className="border-b">Tecnologia</h2>
-                                <p>
+                                <p className="text-sm">
                                     Além da possibilidade de transformar jogos de lazer em jogos
                                     sérios, não há perca de desempenho na reabilitação. Além
                                     do mais, nós fornecemos um feedback gráfico de sua evolução
@@ -75,7 +75,7 @@ const homePage = () => {
                             </HoverCardTrigger>
                             <HoverCardContent>
                                 <h2 className="border-b">Felicidade</h2>
-                                <p>
+                                <p className="text-sm">
                                     Além de estar efetivamente praticando um lazer
                                     o paciente estará reabilitando a movimentação fina de seus
                                     membros, oferencedo menos stress ao logo do tratamento diminuíndo assim
@@ -87,7 +87,7 @@ const homePage = () => {
                 <div 
                     className="
                     transition ease-in-out delay-150 bg-bgc-card hover:-translate-y-1 hover:scale-110 hover:bg-bgc-hcard duration-300
-                    absolute bottom-80 left-24 rounded-2xl p-4 w-1/5 text-lg">
+                    absolute bottom-52 left-24 rounded-2xl p-4 w-1/5 text-lg">
                         <Link href="/info">
                             <h1 className="text-4xl">Quem Somos?</h1>                                
                         </Link>
