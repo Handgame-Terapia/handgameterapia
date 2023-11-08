@@ -35,13 +35,13 @@ export default function RootLayout({
             defaultTheme="system"
             enableSystem
             disableTransitionOnChange>
+            <ModalProvider/>
             {!userId ? 
             (
               <Navbar/>
               ) : (
                 <NavbarLoged/>
                 )}
-              <ModalProvider/>
               {children}
             <Footer />
           </ThemeProvider>

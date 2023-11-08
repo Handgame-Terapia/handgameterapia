@@ -9,7 +9,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqPage = () => {
     return (
-        <div className="bg-black text-neutral-300 p-4">
+        <div className="pt-20 md:pt-0 bg-black text-neutral-300 p-4">
             <div className="flex flex-col justify-center items-center p-4 md:h-screen">
                 <div className="grid grid-cols-4 w-2/3 mt-4">
                     <div className="col-span-4 md:col-span-3 flex flex-col">
@@ -36,8 +36,8 @@ const faqPage = () => {
                             alt="Light"
                         />
                     </div>
-                    <div className="flex items-center justify-evenly w-full flex-row col-span-4 mt-5 gap-5">
-                        <div className="w-1/2">
+                    <div className="flex items-center md:justify-evenly w-full md:flex-row flex-col col-span-4 mt-5 gap-5">
+                        <div className="md:w-1/2 md:block flex flex-col text-center">
                             <h1 className="text-4xl">Porque usamos o FAQ?</h1>
                             <p className="text-lg">
                                 O FAQ é um sistema para facilitar nossa interações com os usuários que possuerem
@@ -45,7 +45,7 @@ const faqPage = () => {
                                 efetiva em problemas pragmáticos.
                             </p>
                         </div>
-                        <div className="w-1/2">
+                        <div className="md:w-1/2 md:block flex flex-col text-center">
                             <h1 className="text-4xl">Como enviar sua pergunta?</h1>
                             <p className="text-lg">
                                 Você pode enviar sua pergunta diretamente para nossos emails<br/><br/>

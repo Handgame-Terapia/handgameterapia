@@ -8,7 +8,7 @@ import { Button } from "./ui/button";
 
 const Navbar = () => {
     return ( 
-        <div className="fixed md:static top-0 border-b grid grid-cols-2 md:grid-cols-3 bg-neutral-800 px-4">
+        <div className="fixed md:static border-b grid grid-cols-2 md:grid-cols-3 bg-bgc-nav px-4">
             <div className="flex items-center">
                 <Link href="/home" className="flex items-center mx-5 my-2 gap-3">
                     <Image 

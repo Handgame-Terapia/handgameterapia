@@ -8,11 +8,11 @@ import Image from 'next/image';
 
 const infoPage = () => {
     return ( 
-        <div className='bg-black text-neutral-300 p-4'>
+        <div className='pt-20 md:pt-0 bg-black text-neutral-300 p-4'>
             <div className='grid md:grid-cols-2 px-4'>
                 <div className='flex flex-col justify-center gap-4'>
                     <h1 className='text-4xl'>Sobre o Handgame</h1>
-                    <p className='text-lg text-neutral-500'>
+                    <p className='text-lg text-neutral-400'>
                         O Handgame é um projeto de desenvolvimento de um dispositivo wearable que possa
                         auxiliar a fisioterapia por meio de jogos digitais, conhecido também
                         como gameterapia.<br/><br/>

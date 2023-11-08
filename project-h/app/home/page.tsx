@@ -15,7 +15,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const homePage = () => {
     return (
-        <div className="bg-black text-neutral-300 px-4">
+        <div className="pt-20 md:pt-0 bg-black text-neutral-300 px-4">
             <div className="hidden md:flex w-full h-screen justify-center p-10">
                 <Image
                     className="w-auto h-4/5 cover rounded-3xl relative"
