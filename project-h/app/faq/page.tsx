@@ -12,9 +12,9 @@ import Image from "next/image";
 const faqPage = () => {
     return (
         <div className="bg-black text-neutral-300 p-4">
-            <div className="flex flex-col justify-center items-center p-4 h-screen">
+            <div className="flex flex-col justify-center items-center p-4 md:h-screen">
                 <div className="grid grid-cols-4 w-2/3 mt-4">
-                    <div className="col-span-3 flex flex-col">
+                    <div className="col-span-4 md:col-span-3 flex flex-col">
                         <h1 className="text-4xl text-center">O que significa FAQ? </h1>
                         <p className="text-lg p-4">
                             FAQ é um acrónimo para Frequent Asked Questions, ela é uma área designada
@@ -22,7 +22,7 @@ const faqPage = () => {
                             caso a pergunta não seja muito complexa ou que seja repetida várias vezes.
                         </p>
                     </div>
-                    <div>
+                    <div className="hidden md:block">
                         <Image
                             className="absolute"
                             src={Conversation}
