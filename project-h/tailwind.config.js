@@ -20,6 +20,10 @@ module.exports = {
       },
     },
     extend: {
+      transitionDuration: {
+        '3000': '3000ms',
+        '4000': '4000ms',
+      },
       colors: {
         bgc:{
           nav: '#121212',
