@@ -11,8 +11,8 @@ const documentPage = () => {
         <div className="pt-20 md:pt-0 bg-black text-neutral-300 md:px-14 px-4">
             <div className="hidden md:grid grid-cols-2 px-4 h-screen">
                 <div className="flex flex-col items-end justify-center pb-10">
-                    <h1 className="text-4xl mb-4 animate-pulse">Trabalhando por um mundo melhor</h1>
-                    <p className="w-2/3 text-lg mr-14">
+                    <h1 className="text-4xl mb-4 animate-pulse flex justify-start w-3/4">Trabalhando por um mundo melhor</h1>
+                    <p className="w-3/4 text-justify text-lg">
                         Por isso estamos disponibilizando gratuitamente toda a documentação que 
                         criamos não só da luva, mas também do nosso TCC. Para que assim, todos
                         aqueles que queiram fazer aprimoramentos e adaptações, não possuam 
