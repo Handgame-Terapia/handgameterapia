@@ -14,18 +14,19 @@ model tb_client {
   userId    String       @unique
   createdAt DateTime     @default(now())
   updatedAt DateTime     @updatedAt
-  workout   tb_workout[]
+  workout   dedos[]
 }
 
-model tb_workout {
+model dedos {
   id        Int       @id @default(autoincrement())
-  client_Id String
+  client_Id String    @default("user_2XVslPQ7e1wPQUHYOxAJOlQ978u")
   clientId  tb_client @relation(fields: [client_Id], references: [userId])
-  finger_1  String?   @default("")
-  finger_2  String?   @default("")
-  finger_3  String?   @default("")
-  finger_4  String?   @default("")
-  finger_5  String?   @default("")
+  S0  Int?   @default(4000)
+  S1  Int?   @default(4000)
+  S2  Int?   @default(4000)
+  S3  Int?   @default(4000)
+  S4  Int?   @default(4000)
+  createdAt DateTime @default(now())
 
   @@index([client_Id])
 }

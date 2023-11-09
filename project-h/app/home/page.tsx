@@ -8,14 +8,14 @@ import Bruno from "@/public/bruno frischer.png"
 import Gusta from "@/public/gusta.jpg"
 import Gusma from "@/public/gusma.png"
 import Vitu from "@/public/vitu.png"
-import Tgloves from "@/public/t-gloves.png"
+import Tgloves from "@/public/luva-azul.png"
 import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const homePage = () => {
     return (
-        <div className="pt-20 md:pt-0 bg-black text-neutral-300 px-4">
+        <div className="pt-20 md:pt-0 bg-black text-neutral-300 md:px-14 px-4">
             <div className="hidden md:flex w-full h-screen justify-center p-10">
                 <Image
                     className="w-auto h-4/5 cover rounded-3xl relative"
@@ -210,7 +210,7 @@ const homePage = () => {
                     </Link>
                 </div>
             </div>
-            <div className="md:grid md:grid-cols-3 md:p-4">
+            <div className="md:grid md:grid-cols-3 md:p-4 text-justify">
                 <div className="flex flex-cols justify-between items-center p-4">
                     <div>
                         <h1 className="text-2xl md:text-4xl font-bold text-center">A Luva</h1>

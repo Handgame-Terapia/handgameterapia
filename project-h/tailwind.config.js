@@ -25,10 +25,17 @@ module.exports = {
         '4000': '4000ms',
       },
       colors: {
-        bgc:{
+        bgc:{ 
           nav: '#121212',
           card: '#010911',
           hcard: '#020c17',
+        },
+        nav:{
+          'home': '#11a9e1',
+          'doc': '#13bcfa',
+          'info': '#13BCFA',
+          'faq': '#13bcfa',
+          'dash': '#2ac2fa',
         },
         tremor: {
           brand: {

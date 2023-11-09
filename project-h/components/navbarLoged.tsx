@@ -11,7 +11,7 @@ import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover
 const NavbarLoged = () => {
     const { userId } = auth();
     return ( 
-        <div className="sticky md:static top-0 border-b grid grid-cols-2 md:grid-cols-6 bg-neutral-800 px-4">
+        <div className="sticky md:static top-0 border-b grid grid-cols-2 md:grid-cols-6 bg-neutral-800 md:px-14 px-4">
             <div className="flex items-center">
                 <Link href="/home" className="flex items-center mx-5 my-2 gap-3">
                     <Image 
@@ -35,7 +35,7 @@ const NavbarLoged = () => {
                     <div className="grid grid-cols-5 md:gap-4">
                         <Link href="/home">
                             <Button className="
-                            bg-teal-200 text-zinc-600 gap-1 md:w-24
+                            bg-nav-home text-neutral-900 gap-1 md:w-24
                             hover:bg-teal-400 hover:text-white hover:-mt-1">
                                 <Home className="w-5 h-5 mb-1 shirenk-0"/>
                                 Home
@@ -43,7 +43,7 @@ const NavbarLoged = () => {
                         </Link>
                         <Link href="../documents">
                             <Button className="
-                            bg-cyan-200 text-zinc-600 gap-1 w-24
+                            bg-nav-doc text-neutral-900 gap-1 w-24
                             hover:bg-cyan-500 hover:text-white hover:-mt-1">
                                 <BookOpenCheck className="w-5 h-5 shirenk-0"/>
                                 Docs
@@ -51,7 +51,7 @@ const NavbarLoged = () => {
                         </Link>
                         <Link href="../info">
                             <Button className="
-                            bg-sky-200 text-zinc-600 gap-1 w-24
+                            bg-nav-info text-neutral-900 gap-1 w-24
                             hover:bg-sky-500 hover:text-white hover:-mt-1">
                                 <Info className="w-5 h-5 shirenk-0"/>
                                 Info
@@ -59,7 +59,7 @@ const NavbarLoged = () => {
                         </Link>
                         <Link href="../faq">    
                             <Button className="
-                            bg-blue-300 text-zinc-600 gap-1 w-24
+                            bg-nav-faq text-neutral-900 gap-1 w-24
                             hover:bg-blue-400 hover:text-white hover:-mt-1">
                                 <MessagesSquare className="w-5 h-5 shirenk-0"/>
                                 FAQs
@@ -67,7 +67,7 @@ const NavbarLoged = () => {
                         </Link>
                         <Link href="/">
                             <Button className="
-                            bg-indigo-300 text-zinc-600 gap-1 w-24
+                            bg-nav-dash text-neutral-900 gap-1 w-24
                             hover:bg-indigo-400 hover:text-white hover:-mt-1">
                                 <BarChartBig className="w-5 h-5 shirenk-0"/>
                                 Dash
@@ -83,7 +83,7 @@ const NavbarLoged = () => {
                     <div className="grid grid-cols-5 gap-4">
                         <Link href="/home">
                             <Button className="
-                            bg-teal-200 text-zinc-600 gap-1 w-full
+                            bg-nav-home text-neutral-900 gap-1 w-full
                             hover:bg-teal-400 hover:text-white hover:-mt-1">
                                 <Home className="w-5 h-5 mb-1 shirenk-0"/>
                                 Home
@@ -91,7 +91,7 @@ const NavbarLoged = () => {
                         </Link>
                         <Link href="../documents">
                             <Button className="
-                            bg-cyan-200 text-zinc-600 gap-1 w-full
+                            bg-nav-doc text-neutral-900 gap-1 w-full
                             hover:bg-cyan-500 hover:text-white hover:-mt-1">
                                 <BookOpenCheck className="w-5 h-5 shirenk-0"/>
                                 Docs
@@ -99,7 +99,7 @@ const NavbarLoged = () => {
                         </Link>
                         <Link href="../info">
                             <Button className="
-                            bg-sky-200 text-zinc-600 gap-1 w-full
+                            bg-nav-info text-neutral-900 gap-1 w-full
                             hover:bg-sky-500 hover:text-white hover:-mt-1">
                                 <Info className="w-5 h-5 shirenk-0"/>
                                 Info
@@ -107,7 +107,7 @@ const NavbarLoged = () => {
                         </Link>
                         <Link href="../faq">    
                             <Button className="
-                            bg-blue-300 text-zinc-600 gap-1 w-full
+                            bg-nav-faq text-neutral-900 gap-1 w-full
                             hover:bg-blue-400 hover:text-white hover:-mt-1">
                                 <MessagesSquare className="w-5 h-5 shirenk-0"/>
                                 FAQs

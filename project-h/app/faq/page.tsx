@@ -9,7 +9,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqPage = () => {
     return (
-        <div className="pt-20 md:pt-0 bg-black text-neutral-300 p-4">
+        <div className="pt-20 md:pt-0 bg-black text-neutral-300 md:px-14 px-4">
             <div className="flex flex-col justify-center items-center p-4 md:h-screen">
                 <div className="grid grid-cols-4 w-2/3 mt-4">
                     <div className="col-span-4 md:col-span-3 flex flex-col">

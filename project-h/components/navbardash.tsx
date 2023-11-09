@@ -17,8 +17,8 @@ const NavbarDash = async () => {
         },
     });
     return (
-        <div className="border-b">
-            <div className="flex h-16 items-center px-4">
+        <div className="bg-black text-neutral-300 border-b px-4">
+            <div className="flex h-16 items-center p-4 md:px-14">
                 <ClientSwitcher items={client}/>
                 <div>
                     <MainDashNav className="mx-6"/>

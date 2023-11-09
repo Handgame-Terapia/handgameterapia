@@ -1,7 +1,7 @@
 import './globals.css'
 
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 import { ClerkProvider, auth } from '@clerk/nextjs'
 
 import Navbar from '@/components/navbar'
@@ -11,7 +11,10 @@ import { ThemeProvider } from '@/components/theme-provider'
 import { ModalProvider } from '@/providers/modal-provider'
 import { ToasterProvider } from '@/providers/toast-provider'
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({ 
+  weight: '400',
+  subsets: ['latin'],
+})
 
 export const metadata: Metadata = {
   title: 'Handgame Terapia',
@@ -28,7 +31,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className={inter.className}>
+        <body className={roboto.className}>
           <ToasterProvider/>
           <ThemeProvider
             attribute="class"

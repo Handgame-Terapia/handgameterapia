@@ -8,7 +8,7 @@ import TechLuva from "@/public/tech_luva.png"
 
 const documentPage = () => {
     return (
-        <div className="pt-20 md:pt-0 bg-black text-neutral-300 p-4">
+        <div className="pt-20 md:pt-0 bg-black text-neutral-300 md:px-14 px-4">
             <div className="hidden md:grid grid-cols-2 px-4 h-screen">
                 <div className="flex flex-col items-end justify-center pb-10">
                     <h1 className="text-4xl mb-4 animate-pulse">Trabalhando por um mundo melhor</h1>

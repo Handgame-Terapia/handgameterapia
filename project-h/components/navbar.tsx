@@ -8,7 +8,7 @@ import { Button } from "./ui/button";
 
 const Navbar = () => {
     return ( 
-        <div className="fixed md:static border-b grid grid-cols-2 md:grid-cols-3 bg-bgc-nav px-4">
+        <div className="fixed md:static border-b grid grid-cols-2 md:grid-cols-3 bg-bgc-nav md:px-14 px-4">
             <div className="flex items-center">
                 <Link href="/home" className="flex items-center mx-5 my-2 gap-3">
                     <Image 
@@ -31,7 +31,7 @@ const Navbar = () => {
                 <div className="grid grid-cols-4 gap-4">
                     <Link href="/home">
                         <Button className="
-                        bg-teal-200 text-zinc-600 gap-1 w-full
+                        bg-nav-home text-neutral-900 gap-1 w-full
                         hover:bg-teal-400 hover:text-white hover:-mt-1">
                             <Home className="w-5 h-5 mb-1 shirenk-0"/>
                             Home
@@ -39,7 +39,7 @@ const Navbar = () => {
                     </Link>
                     <Link href="../documents">
                         <Button className="
-                        bg-cyan-200 text-zinc-600 gap-1 w-full
+                        bg-nav-doc text-neutral-900 gap-1 w-full
                         hover:bg-cyan-500 hover:text-white hover:-mt-1">
                             <BookOpenCheck className="w-5 h-5 shirenk-0"/>
                             Docs
@@ -47,7 +47,7 @@ const Navbar = () => {
                     </Link>
                     <Link href="../info">
                         <Button className="
-                        bg-sky-200 text-zinc-600 gap-1 w-full
+                        bg-nav-info text-neutral-900 gap-1 w-full
                         hover:bg-sky-500 hover:text-white hover:-mt-1">
                             <Info className="w-5 h-5 shirenk-0"/>
                             Info
@@ -55,7 +55,7 @@ const Navbar = () => {
                     </Link>
                     <Link href="../faq">    
                         <Button className="
-                        bg-blue-300 text-zinc-600 gap-1 w-full
+                        bg-nav-faq text-neutral-900 gap-1 w-full
                         hover:bg-blue-400 hover:text-white hover:-mt-1">
                             <MessagesSquare className="w-5 h-5 shirenk-0"/>
                             FAQs

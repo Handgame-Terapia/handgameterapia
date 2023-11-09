@@ -13,6 +13,11 @@ export function MainDashNav({
 
     const routes = [
         {
+            href: `/${params.clientId}`,
+            label: 'Dashboard',
+            active: pathname === `/${params.clientId}`,
+        },
+        {
             href: `/${params.clientId}/settings`,
             label: 'Settings',
             active: pathname === `/${params.clientId}/settings`,
