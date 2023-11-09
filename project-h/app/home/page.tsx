@@ -3,7 +3,7 @@ import Link from "next/link";
 import { UserSquare } from "lucide-react";
 
 import Analytics from "@/public/analytics.png";
-import Glove from "@/public/glove.jpg"
+import Glove from "@/public/mainGlove.png"
 import Bruno from "@/public/bruno frischer.png"
 import Gusta from "@/public/gusta.jpg"
 import Gusma from "@/public/gusma.png"
@@ -28,10 +28,10 @@ const homePage = () => {
                     className="
                     transition ease-in-out delay-150 bg-bgc-card hover:-translate-y-1 hover:scale-110 hover:bg-bgc-hcard duration-300
                     absolute top-40 left-24 rounded-2xl p-4 w-1/5">
-                        <h1 className="text-4xl text-neutral-200 text-center">Vantagens</h1>                                
+                        <h1 className="text-4xl text-neutral-200">Vantagens</h1>                                
                         <HoverCard>
                             <HoverCardTrigger>
-                                <p className="text-xl text-neutral-300">+ Mobilidade</p>
+                                <p className="text-xl text-neutral-300 cursor-pointer">+ Mobilidade</p>
                             </HoverCardTrigger>
                             <HoverCardContent>
                                 <h2 className="border-b">Mobilidade</h2>
@@ -44,7 +44,7 @@ const homePage = () => {
                         </HoverCard>
                         <HoverCard>
                             <HoverCardTrigger>
-                                <p className="text-xl text-neutral-300">+ Arejada</p>
+                                <p className="text-xl text-neutral-300 cursor-pointer">+ Arejada</p>
                             </HoverCardTrigger>
                             <HoverCardContent>
                                 <h2 className="border-b">Arejada</h2>
@@ -57,7 +57,7 @@ const homePage = () => {
                         </HoverCard>
                         <HoverCard>
                             <HoverCardTrigger>
-                                <p className="text-xl text-neutral-300">+ Tecnologia</p>
+                                <p className="text-xl text-neutral-300 cursor-pointer">+ Tecnologia</p>
                             </HoverCardTrigger>
                             <HoverCardContent>
                                 <h2 className="border-b">Tecnologia</h2>
@@ -71,7 +71,7 @@ const homePage = () => {
                         </HoverCard>
                         <HoverCard>
                             <HoverCardTrigger>
-                                <p className="text-xl text-neutral-300">+ Felicidade</p>
+                                <p className="text-xl text-neutral-300 cursor-pointer">+ Felicidade</p>
                             </HoverCardTrigger>
                             <HoverCardContent>
                                 <h2 className="border-b">Felicidade</h2>
@@ -93,13 +93,13 @@ const homePage = () => {
                         </Link>
                         <HoverCard>
                             <HoverCardTrigger>
-                                <p className="flex items-center text-md">
+                                <p className="flex items-center text-md cursor-pointer">
                                     <UserSquare className="w-4 h-4"/>
                                     | Bruno Frischer
                                 </p>
                             </HoverCardTrigger>
                             <HoverCardContent>
-                                <div className="flex gap-2 border-b">
+                                <div className="flex gap-2 border-b ">
                                     <Image
                                         src={Bruno}
                                         height={20}
@@ -115,7 +115,7 @@ const homePage = () => {
                         </HoverCard>
                         <HoverCard>
                         <HoverCardTrigger>
-                            <p className="flex items-center text-md">
+                            <p className="flex items-center text-md cursor-pointer">
                                 <UserSquare className="w-4 h-4"/>
                                 | Gustavo Eizono Cruz
                             </p>
@@ -137,7 +137,7 @@ const homePage = () => {
                     </HoverCard>
                     <HoverCard>
                         <HoverCardTrigger>
-                            <p className="flex items-center text-md">
+                            <p className="flex items-center text-md cursor-pointer">
                                 <UserSquare className="w-4 h-4"/>
                                 | Gustavo Hiroshi Yoshio
                             </p>
@@ -159,7 +159,7 @@ const homePage = () => {
                     </HoverCard>
                     <HoverCard>
                         <HoverCardTrigger>
-                            <p className="flex items-center text-md">
+                            <p className="flex items-center text-md cursor-pointer">
                                 <UserSquare className="w-4 h-4"/>
                                 | Victor de Marqui
                             </p>
