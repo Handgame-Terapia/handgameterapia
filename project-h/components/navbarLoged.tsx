@@ -11,7 +11,7 @@ import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover
 const NavbarLoged = () => {
     const { userId } = auth();
     return ( 
-        <div className="sticky md:static top-0 border-b grid grid-cols-2 md:grid-cols-6 bg-neutral-800 md:px-14 px-4">
+        <div className="sticky md:static top-0 border-b grid grid-cols-2 md:grid-cols-6 bg-bgc-nav md:px-14 px-4">
             <div className="flex items-center">
                 <Link href="/home" className="flex items-center mx-5 my-2 gap-3">
                     <Image 
