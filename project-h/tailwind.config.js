@@ -25,6 +25,9 @@ module.exports = {
         '4000': '4000ms',
       },
       colors: {
+        title:{
+          'new': '#3996fc'
+        },
         bgc:{ 
           nav: '#121212',
           card: '#010911',

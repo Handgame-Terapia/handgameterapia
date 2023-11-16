@@ -22,7 +22,7 @@ const NavbarLoged = () => {
                         />
                     <h1 className="
                     flex items-center 
-                    text-3xl font-mono text-sky-400 hover:text-sky-600"
+                    text-3xl font-mono text-title-new hover:text-sky-600"
                     >
                         Handgame
                     </h1>
