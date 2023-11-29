@@ -107,7 +107,7 @@ export default function DashboardExample() {
                   className="h-72 mt-4"
                   data={chartdata}
                   index="date"
-                  categories={["Polegar", "Indicador", "Médio", "Anelar", "Minímo"]}
+                  categories={["Polegar", "Indicador", "Médio", "Anelar", "Minimo"]}
                   colors={["neutral", "indigo", "rose", "orange", "emerald"]}
                 />
               </Card>

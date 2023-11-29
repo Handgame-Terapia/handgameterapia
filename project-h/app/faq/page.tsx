@@ -71,63 +71,63 @@ const faqPage = () => {
                         </div>
                         <Accordion type="single" collapsible>
                             <AccordionItem value="Question 1">
-                                <AccordionTrigger>Pergunta 1</AccordionTrigger>
+                                <AccordionTrigger>Como configurar a luva?</AccordionTrigger>
                                 <AccordionContent>
-                                    Resposta
+                                    Todas as instruções para configurar a luva estão presentes na documentação da luva na aba Docs do site.
                                 </AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="Question 2">
-                                <AccordionTrigger>Pergunta 2</AccordionTrigger>
+                                <AccordionTrigger>Qualquer pessoa pode utilizar a luva?</AccordionTrigger>
                                 <AccordionContent>
-                                    Resposta
+                                Qualquer pessoa pode utilizar a luva e configurar ela em sua máquina própria, porém é recomendado a utilização com o acompanhamento de um profissional da área de saúde e com sugestão do mesmo.
                                 </AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="Question 3">
-                                <AccordionTrigger>Pergunta 3</AccordionTrigger>
+                                <AccordionTrigger>Como proceder caso seja necessário uma manutenção da luva?</AccordionTrigger>
                                 <AccordionContent>
-                                    Resposta
+                                A empresa Handgame oferece serviços de manutenção da luva mediante o pagamento de uma taxa. 
                                 </AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="Question 4">
-                                <AccordionTrigger>Pergunta 4</AccordionTrigger>
+                                <AccordionTrigger>É necessário baixar algum software para utilização da luva?</AccordionTrigger>
                                 <AccordionContent>
-                                    Resposta
+                                Não, a luva já vem configurada para você conectar por bluetooth e começar a utilizar, para se ter acesso aos dados coletados por ela, você pode utilizar a dashboard na área do usuário em nosso site.
                                 </AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="Question 5">
-                                <AccordionTrigger>Pergunta 5</AccordionTrigger>
+                                <AccordionTrigger>Quem somos?</AccordionTrigger>
                                 <AccordionContent>
-                                    Resposta
+                                Para obter informações sobre a equipe acesse a aba sobre nós no site.
                                 </AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="Question 6">
-                                <AccordionTrigger>Pergunta 6</AccordionTrigger>
+                                <AccordionTrigger>Onde posso verificar os dados adquiridos pela luva?</AccordionTrigger>
                                 <AccordionContent>
-                                    Resposta
+                                É possível verificar os dados na dashboard presente após fazer login no site e verificar seu perfil.
                                 </AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="Question 7">
-                                <AccordionTrigger>Pergunta 7</AccordionTrigger>
+                                <AccordionTrigger>Como posso conectar a luva com meu computador?</AccordionTrigger>
                                 <AccordionContent>
-                                    Resposta
+                                A luva vem com uma conexão bluetooth integrada então é necessário apenas conectar na rede bluetooth da luva para iniciar o uso.
                                 </AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="Question 8">
-                                <AccordionTrigger>Pergunta 8</AccordionTrigger>
+                                <AccordionTrigger>A luva realmente funciona com qualquer jogo?</AccordionTrigger>
                                 <AccordionContent>
-                                    Resposta
+                                Sim, a luva foi construída para funcionar como inputs do teclado então é possível utilizá-la para qualquer jogo de até cinco botões.
                                 </AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="Question 9">
-                                <AccordionTrigger>Pergunta 9</AccordionTrigger>
+                                <AccordionTrigger>Para fisioterapia existe apenas esta luva ou existem aparelhos para outras partes do corpo?</AccordionTrigger>
                                 <AccordionContent>
-                                    Resposta
+                                Até o momento existe apenas a luva, porém tendo em vista o funcionamento do hardware, a criação de dispositivos para outras partes do corpo é possível no futuro.
                                 </AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="Question 10">
-                                <AccordionTrigger>Pergunta 10</AccordionTrigger>
+                                <AccordionTrigger>Qual o custo da luva?</AccordionTrigger>
                                 <AccordionContent>
-                                    Resposta
+                                A luva custa 300 reais
                                 </AccordionContent>
                             </AccordionItem>
                         </Accordion>
