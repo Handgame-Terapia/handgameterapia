@@ -73,7 +73,6 @@ export default function DashboardExample() {
       <TabGroup className="mt-6">
         <TabList>
           <Tab>Overview</Tab>
-          <Tab>Detalhado</Tab>
         </TabList>
         <TabPanels>
           <TabPanel className="h-screen">
@@ -112,9 +111,6 @@ export default function DashboardExample() {
                 />
               </Card>
             </div>
-          </TabPanel>
-          <TabPanel>
-
           </TabPanel>
         </TabPanels>
       </TabGroup>
